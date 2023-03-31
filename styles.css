@@ -3,11 +3,17 @@ body {
     display: flex;
     flex-direction: column;
     padding: 16px 84px;
+    
+}
+
+p,
+a {
+    font-size: 10px;
 }
 
 header {
    display: flex;
-   align-items: center;
+   align-items: baseline;
    justify-content: space-between;
 }
 
