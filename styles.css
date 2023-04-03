@@ -2,7 +2,9 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 20px 84px;
+    background-color: pink;
+    justify-content: center;
+    margin: 0px;
 }
 
 p,
@@ -10,13 +12,28 @@ a {
     font-size: 10px;
 }
 
-header {
-   display: flex;
-   align-items: baseline;
-   justify-content: space-between;
+h1, h2, h3, h4, ul {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
+header, .midheader {
+   height: 100%;
+   width: 100%;
+   flex: 1;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   background-color: #1F2937;
+   color: #F9FAF8;
+   padding: 25px;
+   padding-bottom: 40px;
+}
+
+
 .midheader,
+.information,
 .images,
 .quote,
 .call-to-action {
@@ -24,16 +41,45 @@ header {
     margin-bottom: 50px;
 }
 
+.midheader {
+    justify-content: center;
+    gap: 16px;
+}
+
+.midheader-left {
+    margin-left: 80px;
+    flex: 1;
+}
+
+.midheader-right {
+    margin-right: 80px;
+    flex: 1;  
+}
+
+#logo, #header-links,
+.images, .quote {
+    margin: 0px 80px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .image-text-pair {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    
 }
 
 .placeholder {
-    width: 250px;
+    width: 100%;
     height: 200px;
+    flex: 1;
     background-color: teal;
     border-radius: 25px;
     display: flex;
@@ -44,7 +90,7 @@ header {
 .image {
     width: 100px;
     height: 100px;
-    background-color: teal;
+    border: 2px solid #3882F6;
     border-radius: 25px;
 }
 
@@ -94,6 +140,27 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.header-link {
+    color: #F9FAF8;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 8px;
+    padding: .2rem .4rem;
+    color: #f9faf8;
 }
 
 
