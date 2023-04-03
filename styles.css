@@ -2,8 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 16px 84px;
-    
+    padding: 20px 84px;
 }
 
 p,
@@ -15,6 +14,76 @@ header {
    display: flex;
    align-items: baseline;
    justify-content: space-between;
+}
+
+.midheader,
+.images,
+.quote,
+.call-to-action {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.image-text-pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    width: 250px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border-radius: 25px;
+}
+
+.quote {
+    align-self: center;
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.call-to-action {
+    align-self: center;
+    border-radius: 25px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+#sign-up {
+    flex: none;
+    width: 100px;
+    height: 20px;
+}
+
+#attribute {
+    align-self: flex-end;
+}
+
+footer {
+    align-self: center;
+    padding: 25px;
 }
 
 ul {
