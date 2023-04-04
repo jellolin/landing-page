@@ -1,8 +1,8 @@
 body {
+    background-color: white;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: pink;
     justify-content: center;
     margin: 0px;
 }
@@ -11,6 +11,7 @@ p,
 a {
     font-size: 12px;
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 h1, h2, h3, h4, ul {
@@ -36,7 +37,7 @@ header, .midheader {
 .midheader,
 .information,
 .images,
-.quote,
+.container,
 .call-to-action {
     display: flex;
     margin-bottom: 50px;
@@ -79,6 +80,7 @@ header, .midheader {
     max-width: 104px;
     font-size: 10px;
     overflow: text-wrap;
+    color: darkslategrey;
 }
 
 .image-text-pair {
@@ -86,6 +88,7 @@ header, .midheader {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .placeholder {
@@ -106,15 +109,22 @@ header, .midheader {
     max-width: 100%
 }
 
+.container {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .quote {
-    align-self: center;
+    height: 200px;
     width: 60%;
-    height: 300px;
+    padding: 30px 0px;
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: skyblue;
-    padding: 20px;
+    align-items: center;
 }
 
 .call-to-action {
@@ -135,8 +145,19 @@ header, .midheader {
     height: 20px;
 }
 
+#quote-text {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    color: #4a586b;
+    overflow: text-wrap;
+}
+
 #attribute {
     align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    padding-right: 10px;
 }
 
 footer {
