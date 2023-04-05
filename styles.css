@@ -33,10 +33,13 @@ header, .midheader {
    padding-bottom: 40px;
 }
 
+#logo, #header-links,
+.images, .quote, .call-to-action {
+    margin: 0px 80px;
+}
 
 .midheader,
 .information,
-.images,
 .container,
 .call-to-action {
     display: flex;
@@ -58,11 +61,6 @@ header, .midheader {
     flex: 1;  
 }
 
-#logo, #header-links,
-.images, .quote, .call-to-action {
-    margin: 0px 80px;
-}
-
 .information {
     display: flex;
     flex-direction: column;
@@ -70,7 +68,7 @@ header, .midheader {
 }
 
 .images {
-    padding: 20px 0px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -88,7 +86,6 @@ header, .midheader {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .placeholder {
@@ -117,7 +114,7 @@ header, .midheader {
 }
 
 .quote {
-    height: 200px;
+    height: 180px;
     width: 60%;
     padding: 30px 0px;
     align-self: center;
@@ -131,7 +128,7 @@ header, .midheader {
     flex: 1;
     align-self: center;
     border-radius: 25px;
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -197,4 +194,11 @@ button {
     font-size: 12px;
 }
 
-
+footer {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 12px;
+}
