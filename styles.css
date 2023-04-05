@@ -4,12 +4,13 @@
 }
 
 body {
-    background-color: white;
+    background-color: #26263f;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0px;
+    color: #E5E7EB;
 }
 
 p,
@@ -27,7 +28,7 @@ header, .midheader {
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
-   background-color: #1F2937;
+   background-color: #191930;
    color: #F9FAF8;
    padding: 25px 0px;
    padding-bottom: 40px;
@@ -79,7 +80,7 @@ header, .midheader {
     max-width: 104px;
     font-size: 10px;
     overflow: text-wrap;
-    color: darkslategrey;
+    color: #E5E7EB;
 }
 
 .image-text-pair {
@@ -132,13 +133,13 @@ header, .midheader {
 .image {
     width: 100px;
     height: 100px;
-    border: 2px solid #3882F6;
+    border: 1.5px solid #3882F6;
     border-radius: 25px;
     max-width: 100%
 }
 
 .container {
-    background-color: #E5E7EB;
+    background-color: #191930;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -163,7 +164,7 @@ header, .midheader {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #3882F6;
+    background-image: linear-gradient(#e01f50, #e01f4f98);
     padding: 40px;
     color: #E5E7EB;
 }
@@ -172,13 +173,13 @@ header, .midheader {
     font-size: 24px;
     font-style: italic;
     font-weight: 100;
-    color: #4a586b;
+    color: #b1bdce;
     overflow: text-wrap;
 }
 
 #attribute {
     align-self: flex-end;
-    color: #1F2937;
+    color: #76869c;
     font-weight: bold;
     padding-right: 10px;
 }
@@ -208,7 +209,7 @@ ul {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #e01f50;
     border: 0px;
     border-radius: 8px;
     padding: .3rem 1rem;
@@ -218,7 +219,7 @@ button {
 }
 
 #sign-up {
-    background-color: #3882F6;
+    background-color: #e01f50;
     border: 2px solid white;
     border-radius: 8px;
     padding: .3rem 1rem;
@@ -229,7 +230,7 @@ button {
 footer {
     width: 100%;
     padding: 20px 0px;
-    background-color: #1F2937;
+    background-color: #191930;
     text-align: center;
     color: #E5E7EB;
     font-size: 12px;
