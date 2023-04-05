@@ -1,3 +1,10 @@
 # landing-page
 
-A landing page to match an image following The Odin Project curriculum.
+A sample of a landing page following the second exercise in The Odin Project curriculum.
+
+Demonstrated Skills:
+HTML
+CSS
+Flexbox
+
+Live Demo: https://jellolin.github.io/landing-page

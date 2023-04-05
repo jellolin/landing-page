@@ -1,6 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: white;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,12 +17,7 @@ a {
     font-size: 12px;
     text-decoration: none;
     color: #E5E7EB;
-}
-
-h1, h2, h3, h4, ul {
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
+    padding: 10px 0px;
 }
 
 header, .midheader {
@@ -71,6 +71,7 @@ header, .midheader {
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -88,8 +89,38 @@ header, .midheader {
     align-items: center;
 }
 
+#image-one {
+    background-image: url("./images/thanish-ahmed-unsplash.jpg");
+    background-size: 150%;
+    background-position: 20%;
+    background-repeat: no-repeat, repeat;
+}
+
+#image-two {
+    background-image: url("./images/jay-r-unsplash.jpg");
+    background-size: 200%;
+    background-position: 50%;
+    background-repeat: no-repeat, repeat;
+}
+
+#image-three {
+    background-image: url("./images/zetong-li-unsplash.jpg");
+    background-size: 150%;
+    background-position: 30%;
+    background-repeat: no-repeat, repeat;
+}
+
+#image-four {
+    background-image: url("./images/marcela-laskoski-unsplash.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat, repeat;
+}
+
 .placeholder {
-    height: 170px;
+    background-image: url("./images/artur-aldyrkhanov-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    height: 230px;
     flex: 1;
     background-color: teal;
     border-radius: 25px;
@@ -183,6 +214,7 @@ button {
     padding: .3rem 1rem;
     color: #f9faf8;
     font-size: 12px;
+    margin: 10px 0px;
 }
 
 #sign-up {
