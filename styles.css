@@ -48,8 +48,9 @@ header, .midheader {
 }
 
 .midheader {
+    display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1em;
 }
 
 .midheader-left {
@@ -59,7 +60,7 @@ header, .midheader {
 
 .midheader-right {
     margin-right: 80px;
-    flex: 1;  
+    flex: 1;
 }
 
 .information {
@@ -120,13 +121,10 @@ header, .midheader {
 .hero-image {
     background-image: url("./images/artur-aldyrkhanov-unsplash.jpg");
     background-size: 100%;
+    background-position: 30%;
     background-repeat: no-repeat, repeat;
-    height: 270px;
-    flex: 1;
+    height: 250px;
     border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .image {
