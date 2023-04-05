@@ -36,7 +36,7 @@ header, .midheader {
 
 #logo, #header-links,
 .images, .quote, .call-to-action {
-    margin: 0px 80px;
+    margin: 0px 140px;
 }
 
 .midheader,
@@ -50,16 +50,16 @@ header, .midheader {
 .midheader {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 8px;
 }
 
 .midheader-left {
-    margin-left: 80px;
+    margin-left: 140px;
     flex: 1;
 }
 
 .midheader-right {
-    margin-right: 80px;
+    margin-right: 140px;
     flex: 1;
 }
 
@@ -125,6 +125,7 @@ header, .midheader {
     background-repeat: no-repeat, repeat;
     height: 250px;
     border-radius: 25px;
+    padding: 0px;
 }
 
 .image {
