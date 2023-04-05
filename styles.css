@@ -59,7 +59,7 @@ header, .midheader {
 }
 
 #logo, #header-links,
-.images, .quote {
+.images, .quote, .call-to-action {
     margin: 0px 80px;
 }
 
@@ -128,21 +128,16 @@ header, .midheader {
 }
 
 .call-to-action {
+    flex: 1;
     align-self: center;
     border-radius: 25px;
-    width: 60%;
-    height: 150px;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: skyblue;
-    padding: 20px;
-}
-
-#sign-up {
-    flex: none;
-    width: 100px;
-    height: 20px;
+    background-color: #3882F6;
+    padding: 40px;
+    color: #E5E7EB;
 }
 
 #quote-text {
@@ -188,7 +183,16 @@ button {
     background-color: #3882F6;
     border: 0px;
     border-radius: 8px;
-    padding: .2rem .4rem;
+    padding: .3rem 1rem;
+    color: #f9faf8;
+    font-size: 12px;
+}
+
+#sign-up {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: .3rem 1rem;
     color: #f9faf8;
     font-size: 12px;
 }
