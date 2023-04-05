@@ -117,11 +117,11 @@ header, .midheader {
     background-repeat: no-repeat, repeat;
 }
 
-.placeholder {
+.hero-image {
     background-image: url("./images/artur-aldyrkhanov-unsplash.jpg");
     background-size: 100%;
     background-repeat: no-repeat, repeat;
-    height: 230px;
+    height: 270px;
     flex: 1;
     border-radius: 25px;
     display: flex;
@@ -130,8 +130,8 @@ header, .midheader {
 }
 
 .image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 1.5px solid #3882F6;
     border-radius: 25px;
     max-width: 100%
@@ -159,12 +159,12 @@ header, .midheader {
     flex: 1;
     align-self: center;
     border-radius: 25px;
-    width: 75%;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-image: linear-gradient(#e01f50, #e01f4f98);
-    padding: 40px;
+    padding: 3em;
     color: #E5E7EB;
 }
 
